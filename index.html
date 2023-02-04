@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +18,7 @@
 
     <title>Frontend Mentor | News homepage</title>
   </head>
-  <body>
+  <body class="flex h-full flex-col bg-[#FEFDF9]">
     <div
       id="overlay"
       class="pointer-events-none fixed top-0 left-0 right-0 bottom-0 bg-black/60 opacity-0 transition-opacity md:hidden"
@@ -47,7 +47,7 @@
     </div>
 
     <header>
-      <div class="container mx-auto px-5">
+      <div class="container mx-auto px-5 py-3 lg:py-10">
         <nav>
           <div class="flex items-center justify-between py-5">
             <a
@@ -77,80 +77,80 @@
       </div>
     </header>
 
-    <main>
-      <section id="hero" class="mb-14">
+    <main class="flex-grow">
+      <section id="hero" class="mb-20">
         <div class="container mx-auto px-5">
-          <div class="flex flex-col gap-5 lg:flex-row">
-            <article class="flex-grow">
-              <div class="mb-5">
+          <div class="flex flex-col gap-x-7 gap-y-16 lg:flex-row">
+            <article class="lg:w-2/3">
+              <div class="mb-5 lg:mb-10">
                 <img
-                  class="rounded-md lg:hidden"
+                  class="rounded-md lg:hidden w-full"
                   src="./assets/images/image-web-3-mobile.jpg"
                   alt=""
                 />
                 <img
-                  class="hidden rounded-md lg:inline-block"
+                  class="hidden rounded-md lg:inline-block w-full"
                   src="./assets/images/image-web-3-desktop.jpg"
                   alt=""
                 />
               </div>
-              <div class="flex flex-col gap-x-5 lg:flex-row">
-                <h1 class="mb-5 min-w-max text-5xl font-black">
+              <div class="flex flex-col gap-x-16 lg:flex-row lg:items-center">
+                <h1 class="mb-5 min-w-max text-5xl font-black lg:mb-0">
                   The Bright <br />
                   Future of <br />
-                  Web 3.0 ?
+                  Web 3.0?
                 </h1>
                 <div class="flex flex-col items-start justify-between">
-                  <p class="mb-5 text-gray-800">
+                  <p class="mb-5 text-sm text-gray-800 lg:mb-10">
                     We dive into the next evolution of the web that claims to
                     put the power of the platforms back into the hands of the
                     people. But is it really fulfilling its promise?
                   </p>
                   <a
-                    class="rounded-md bg-red-200 px-8 py-3 uppercase tracking-[.25rem] text-white transition-colors hover:bg-gray-900"
+                    class="inline-block shadow-md rounded-md bg-red-200 px-8 py-3 font-bold uppercase tracking-[.2rem] text-white transition-colors hover:bg-gray-900"
                     href=""
                     >READ MORE</a
                   >
                 </div>
               </div>
             </article>
-            <aside class="flex-grow rounded-md bg-gray-900 p-5 lg:w-2/5">
-              <h3 class="text-3xl font-bold text-orange-200">New</h3>
-              <ul>
-                <li class="border-b border-gray-800 py-5">
-                  <h4 class="mb-2">
+            <aside class="rounded-md bg-gray-900 py-8 px-6 lg:w-1/3">
+              <h3 class="mb-2 text-4xl font-bold text-orange-200">New</h3>
+              <ul class="-mb-5">
+                <li class="border-b border-gray-200/25 py-6">
+                  <h4 class="mb-2 text-lg">
                     <a
                       class="font-bold text-white transition-colors hover:text-orange-200"
                       href=""
                       >Hydrogen VS Electric Cars</a
                     >
                   </h4>
-                  <p class="text-gray-800">
+                  <p class="text-gray-200/75">
                     Will hydrogen-fueled cars ever catch up to EVs?
                   </p>
                 </li>
-                <li class="border-b border-gray-800 py-5">
-                  <h4 class="mb-2">
+                <li class="border-b border-gray-200/25 py-5">
+                  <h4 class="mb-2 text-lg">
                     <a
                       class="font-bold text-white transition-colors hover:text-orange-200"
                       href=""
                       >The Downsides of AI Artistry</a
                     >
                   </h4>
-                  <p class="text-gray-800">
+                  <p class="text-gray-200/75">
                     What are the possible adverse effects of on-demand AI image
                     generation?
                   </p>
                 </li>
                 <li class="py-5">
-                  <h4 class="mb-2">
+                  <h4 class="mb-2 text-lg">
                     <a
                       class="font-bold text-white transition-colors hover:text-orange-200"
                       href=""
                       >Is VC Funding Drying Up?</a
                     >
                   </h4>
-                  <p class="text-gray-800">
+                  <p class="text-gray-200/75">
                     Private funding by VC firms is down 50% YOY. We take a look
                     at what that means.
                   </p>
@@ -163,57 +163,50 @@
 
       <section id="articles">
         <div class="container mx-auto px-5">
-          <div class="flex flex-wrap gap-y-5">
-            <article
-              class="flex w-full flex-row items-center md:w-1/2 lg:w-1/3"
-            >
+          <div class="-mx-5 flex flex-wrap gap-y-5">
+            <article class="flex items-center gap-x-5 px-5 md:w-1/2 lg:w-1/3">
               <img
                 class="rounded-md"
                 src="./assets/images/image-retro-pcs.jpg"
                 alt="retro pc"
-                width="175"
-                height="220"
+                width="120"
               />
-              <div class="px-5">
-                <span class="mb-3 inline-block text-3xl font-bold text-gray-200"
-                  >01</span
-                >
-                <h2 class="mb-3 font-black">Reviving Retro PCs</h2>
-                <p class="text-gray-800">
+              <div>
+                <span class="mb-5 text-4xl font-bold text-gray-200">01</span>
+                <h2 class="mb-3 text-lg font-black">Reviving Retro PCs</h2>
+                <p class="leading-normal text-gray-800">
                   What happens when old PCs are given modern upgrades?
                 </p>
               </div>
             </article>
 
-            <article class="flex w-full items-center md:w-1/2 lg:w-1/3">
+            <article class="flex items-center gap-x-5 px-5 md:w-1/2 lg:w-1/3">
               <img
                 class="rounded-md"
                 src="./assets/images/image-top-laptops.jpg"
                 alt="laptops"
-                width="175"
-                height="220"
+                width="120"
               />
-              <div class="px-5">
-                <span class="mb-3 text-3xl font-bold text-gray-200">02</span>
-                <h2 class="mb-3 font-bold">Top 10 Laptops of 2022</h2>
-                <p class="text-gray-800">
+              <div>
+                <span class="mb-5 text-4xl font-bold text-gray-200">02</span>
+                <h2 class="mb-3 text-lg font-black">Top 10 Laptops of 2022</h2>
+                <p class="leading-normal text-gray-800">
                   Our best picks for various needs and budgets.
                 </p>
               </div>
             </article>
 
-            <article class="flex w-full items-center md:w-1/2 lg:w-1/3">
+            <article class="flex items-center gap-x-5 px-5 md:w-1/2 lg:w-1/3">
               <img
                 class="rounded-md"
                 src="./assets/images/image-gaming-growth.jpg"
                 alt="gamepad"
-                width="175"
-                height="220"
+                width="120"
               />
-              <div class="px-5">
-                <span class="mb-3 text-3xl font-bold text-gray-200">03</span>
-                <h2 class="mb-3 font-bold">The Growth of Gaming</h2>
-                <p class="text-gray-800">
+              <div>
+                <span class="mb-5 text-4xl font-bold text-gray-200">03</span>
+                <h2 class="mb-3 text-lg font-black">The Growth of Gaming</h2>
+                <p class="leading-normal text-gray-800">
                   How the pandemic has sparked fresh opportunities.
                 </p>
               </div>
