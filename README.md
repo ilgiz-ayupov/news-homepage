@@ -10,6 +10,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -28,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://ilgiz-ayupov.github.io/news-homepage/](https://your-live-site-url.com)
+- Live Site URL: [https://ilgiz-ayupov.github.io/news-homepage/](https://ilgiz-ayupov.github.io/news-homepage/)
 
 ## My process
 
@@ -42,5 +43,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [https://github.com/ilgiz-ayupov](https://www.your-site.com)
-- Frontend Mentor - [@ilgiz-ayupov](https://www.frontendmentor.io/profile/yourusername)
+- Website - [https://github.com/ilgiz-ayupov](https://github.com/ilgiz-ayupov)
+- Frontend Mentor - [@ilgiz-ayupov](https://www.frontendmentor.io/profile/@ilgiz-ayupov)
