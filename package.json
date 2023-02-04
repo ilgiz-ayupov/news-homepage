@@ -1,0 +1,26 @@
+{
+  "name": "news-homepage",
+  "version": "1.0.0",
+  "description": "Frontend mentor challenge - News Homepage",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
+    "build": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ilgiz-ayupov/news-homepage.git"
+  },
+  "author": "Ilgiz Ayupov <ilgizayupov7@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilgiz-ayupov/news-homepage/issues"
+  },
+  "homepage": "https://github.com/ilgiz-ayupov/news-homepage#readme",
+  "devDependencies": {
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "tailwindcss": "^3.2.4"
+  }
+}
